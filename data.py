@@ -1,6 +1,7 @@
 import sqlalchemy as sa
 from sqlalchemy.orm import Query, scoped_session, sessionmaker
 import datetime
+from model import Publisher, Book, Shop, Stock, Sale
 
 #################### setup some data ######################
 pub1 = sa.Publisher(
