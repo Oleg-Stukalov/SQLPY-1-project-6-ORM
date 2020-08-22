@@ -19,7 +19,7 @@ class Book(Base):
 
     id = sa.Column(sa.Integer, primary_key=True)
     title = sa.Column(sa.String(30), nullable=False)
-    id_publisher = sa.Column(sa.Integer, sa.ForeignKey('user.id'))
+    id_publisher = sa.Column(sa.Integer, sa.ForeignKey('publisher.id'))
     children = relationship('Stock', backref='book')
 
 class Shop(Base):

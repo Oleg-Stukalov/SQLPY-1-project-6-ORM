@@ -1,23 +1,23 @@
-#SQLPY-1-project-6-ORM
+# SQLPY-1-project-6-ORM
 
 Create model, input test data, make test query
 
-##Description
+## Description
 
 The project is for education in PostgreSQL database and SQLAlchemy ORM.
 
 
-##Results
+## Results
 
 Stable PostgreSQL database and SQLAlchemy ORM usage.
 
-##Installation
+## Installation
 
     Get the code from GitHub
     Save it in PyCharm or REPL.IT
     Run the code
 
-##Usage
+## Usage
 
 To use the SQLPY-1-project-6-ORM you need:
 
