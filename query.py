@@ -9,7 +9,7 @@ if __name__ == '__main__':
     session = Session()
 
     #запросы
-    pub_input = input('Пожалуйста, введите имя издателя для поиска в БД')
+    pub_input = input('Пожалуйста, введите имя издателя для поиска в БД: ')
     q = session.query(Publisher).filter(Publisher.name == pub_input)
     print('q.all:', q.all())
 
